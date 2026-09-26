@@ -1,0 +1,15 @@
+name: telegram
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - lxml
+  - beautifulsoup4
+  - matplotlib
+  - seaborn
+  - nltk
+  - spacy
+  - emoji
+  - ipykernel
+  - wordcloud

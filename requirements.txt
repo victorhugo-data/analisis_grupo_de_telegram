@@ -1,0 +1,10 @@
+pandas
+lxml
+beautifulsoup4
+matplotlib
+seaborn
+nltk
+spacy
+emoji
+ipykernel
+wordcloud
