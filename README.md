@@ -47,7 +47,7 @@ del juego.
 │   └── raw            <- Exportación HTML original de Telegram (no se versiona)
 ├── docs               <- Documentación
 ├── models             <- Modelos (no se usan en esta tarea)
-├── notebooks          <- Libreta de análisis: 1.0-analisis-grupo-telegram.ipynb
+├── notebooks          <- Libreta de análisis: 1.0-vh-analisis-grupo-telegram.ipynb
 ├── references         <- Material de referencia
 ├── reports
 │   └── figures        <- Gráficas generadas
