@@ -7,7 +7,7 @@ Cada fila es un mensaje de usuario del grupo (34,868 en total); los avisos del s
 | Columna | Tipo | Descripción |
 |---|---|---|
 | `id_mensaje` | entero | Número del mensaje dentro de la exportación de Telegram. |
-| `timestamp` | fecha y hora | Fecha y hora de envío, en la zona horaria UTC-07:00 de la exportación. |
+| `timestamp` | fecha y hora | Fecha y hora de envío en hora de Moscú (`Europe/Moscow`, UTC+3). La exportación venía en UTC-07:00 y se convirtió sumando 10 horas. Usar Moscú es un supuesto: algunos miembros pueden vivir en otras zonas horarias. |
 | `usuario` | texto | Remitente anonimizado con un nombre de superhéroe (con sufijo numérico a partir del usuario 51, p. ej. `Flash_2`), o "Cuenta eliminada" para todas las cuentas borradas. |
 | `texto` | texto | Texto del mensaje sin correos, enlaces, tarjetas ni teléfonos, y con las menciones cambiadas por `@usuario_anon`. Vacío si el mensaje solo tenía multimedia. |
 | `tipo_contenido` | texto | `texto`, `foto`, `sticker`, `gif`, `video` (archivo de video o video mensaje), `voz` u `otro` (audio, archivo, encuesta o mensaje que solo tenía un enlace). Si una foto trae texto, su tipo es `foto`. |
