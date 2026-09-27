@@ -2,8 +2,8 @@
 # Datos crudos: exportación completa del chat (no se versiona)
 data/raw/
 
-# Datos intermedios y procesados: contienen mensajes textuales y la tabla de
-# equivalencias de nombres. Se ignora el contenido pero se conserva .gitkeep
+# Datos intermedios y procesados: contienen mensajes textuales y, en interim,
+# los nombres reales. Se ignora el contenido pero se conserva .gitkeep
 # para que las carpetas aparezcan en GitHub.
 data/interim/*
 !data/interim/.gitkeep

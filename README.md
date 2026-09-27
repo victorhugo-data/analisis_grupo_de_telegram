@@ -17,9 +17,9 @@ del juego.
 - Los datos crudos (`data/raw/`) y los datos intermedios/procesados **no se suben** al
   repositorio. Por eso la libreta se entrega ya ejecutada, con todas sus salidas visibles.
 - Cada remitente se reemplaza por un nombre de superhéroe (por ejemplo, `Batman`,
-  `Flash_2`); la tabla de equivalencias no se versiona.
-- Las menciones `@usuario` se reemplazan por `@usuario_anon` y se eliminan enlaces y
-  números de teléfono.
+  `Flash_2`); la tabla de equivalencias solo existe en memoria y no se guarda.
+- Las menciones `@usuario` se reemplazan por `@usuario_anon` y se eliminan correos,
+  enlaces, números de tarjeta y teléfonos.
 - Solo se muestran resultados agregados (conteos, promedios, frecuencias), nunca mensajes
   textuales, para que no sea posible identificar a los autores.
 
